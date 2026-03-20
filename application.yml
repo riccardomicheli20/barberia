@@ -12,6 +12,14 @@ spring:
   thymeleaf:
     cache: false
 
+keycloak:
+  auth-server-url: http://localhost:8180
+  realm: barberia
+  client-id: barberia-app
+  client-secret: 9LgLUVvco7ilzAzbL7az2uZjVfihGxMQ
+  admin-client-id: barberia-app
+  admin-realm: barberia
+
 logging:
   level:
     root: INFO
@@ -33,4 +41,4 @@ barberia:
 login-service:
   admin:
     email: riccardobuisness@barberia.it
-    password: Riccardo20
+    password: Riccardo20,
